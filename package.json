@@ -1,0 +1,12 @@
+{
+  "name": "vicidial-leaderboard",
+  "version": "2.0.0",
+  "private": true,
+  "description": "VICIdial sales leaderboard with admin panel.",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

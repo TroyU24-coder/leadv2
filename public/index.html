@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sales Leaderboard</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <main class="dashboard">
+    <section class="topbar">
+      <div>
+        <p class="eyebrow">VICIdial floor report</p>
+        <h1>Sales Leaderboard</h1>
+      </div>
+      <div class="actions">
+        <span id="sourceBadge" class="badge">Loading…</span>
+        <button id="refreshButton" type="button">Refresh</button>
+        <a href="/admin/" class="btn-admin">⚙ Admin</a>
+      </div>
+    </section>
+
+    <div class="controls-bar">
+      <div id="campaignTabs" class="campaign-tabs"></div>
+      <div class="date-picker-wrap">
+        <span class="date-label">📅 From</span>
+        <input type="date" id="dateFrom">
+        <span class="date-label">To</span>
+        <input type="date" id="dateTo">
+        <button id="todayBtn" class="btn-today">Today</button>
+      </div>
+    </div>
+
+    <div id="dateRangeBanner" class="date-range-banner" style="display:none;"></div>
+
+    <section class="summary">
+      <article><span>Top agent</span><strong id="topAgent">-</strong></article>
+      <article><span>Total sales</span><strong id="totalSales">-</strong></article>
+      <article><span>Overall Sales/hr</span><strong id="bestSalesHour">-</strong></article>
+      <article><span>Last refresh</span><strong id="lastRefresh">-</strong></article>
+    </section>
+    <section class="leaderboard">
+      <div class="table-head">
+        <span>Rank</span><span>Agent</span><span>Sales</span><span>Sales/hr</span><span>Non-pause</span>
+      </div>
+      <div id="leaderboardRows" class="rows" aria-live="polite"></div>
+    </section>
+    <p id="errorMessage" class="error"></p>
+  </main>
+  <script src="/app.js"></script>
+</body>
+</html>

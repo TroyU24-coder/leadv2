@@ -1,0 +1,60 @@
+{
+  "agents": [
+    {
+      "name": "Aaron Yutuc",
+      "team": "BBAinbound",
+      "sales": 4,
+      "salesPerWorkingHour": 3.54,
+      "nonPauseTime": "1:07:49"
+    },
+    {
+      "name": "Cresel Adlawon",
+      "team": "BBAinbound",
+      "sales": 5,
+      "salesPerWorkingHour": 4.16,
+      "nonPauseTime": "1:12:10"
+    },
+    {
+      "name": "Diane Andon",
+      "team": "BBAinbound",
+      "sales": 6,
+      "salesPerWorkingHour": 5.17,
+      "nonPauseTime": "1:09:39"
+    },
+    {
+      "name": "Jennifer Duran",
+      "team": "BBAinbound",
+      "sales": 5,
+      "salesPerWorkingHour": 4.2,
+      "nonPauseTime": "1:11:29"
+    },
+    {
+      "name": "Jonal Luarte",
+      "team": "BBAinbound",
+      "sales": 6,
+      "salesPerWorkingHour": 5,
+      "nonPauseTime": "1:11:56"
+    },
+    {
+      "name": "Judie Ira, Alegre",
+      "team": "BBAinbound",
+      "sales": 7,
+      "salesPerWorkingHour": 5.47,
+      "nonPauseTime": "1:16:49"
+    },
+    {
+      "name": "Rizza Batingal",
+      "team": "BBAinbound",
+      "sales": 8,
+      "salesPerWorkingHour": 6.8,
+      "nonPauseTime": "1:10:33"
+    },
+    {
+      "name": "Ruth Rementilla",
+      "team": "BBAinbound",
+      "sales": 6,
+      "salesPerWorkingHour": 5.22,
+      "nonPauseTime": "1:09:01"
+    }
+  ]
+}
